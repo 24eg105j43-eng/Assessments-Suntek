@@ -32,3 +32,9 @@ const movies = [
 
 let res1 = movies.filter((ele=>ele.genre==="Sci-fi"))
 console.log(res1);
+
+//let res2=movies.map((elemeny))
+
+
+let res3 = movies.reduce((acc,ele)=>{(acc+ele.rating)/movies.length},0)
+console.log(res3)

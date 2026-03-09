@@ -6,7 +6,7 @@ for(let i =0;i<arr.length;i++){
 return -1;
 }
 let ar = [90,78,65,98];
-let ele=788;
+let ele=78;
 let sm = smm(ar,ele);
 if(sm!=-1)
 console.log(`Element is at the index ${sm}`);
